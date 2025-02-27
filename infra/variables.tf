@@ -2,6 +2,14 @@ variable "aws_region" {
   type = string
 }
 
-variable "ec2_name" {
-  type = string
+variable "nome_repositorio" {
+	type = string
+}
+
+variable "iam_role" {
+	type = string
+}
+
+variable "env" {
+	type = string
 }
