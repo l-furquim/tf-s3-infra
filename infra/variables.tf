@@ -2,7 +2,7 @@ variable "aws_region" {
   type = string
 }
 
-variable "nome_repositorio" {
+variable "repository_name" {
 	type = string
 }
 
